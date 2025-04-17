@@ -11,7 +11,7 @@ public class Assignment4 {
         BufferedReader mntReader = new BufferedReader(new FileReader("mnt.txt"));
         BufferedReader mdtReader = new BufferedReader(new FileReader("mdt.txt"));
         BufferedReader alaReader = new BufferedReader(new FileReader("ala.txt"));
-        BufferedReader intermediateReader = new BufferedReader(new FileReader("intermediate.txt"));
+        BufferedReader intermediateReader = new BufferedReader(new FileReader("macro_intermediate.txt"));
         BufferedWriter outputWriter = new BufferedWriter(new FileWriter("expanded_code.txt"));
 
         // Load MNT

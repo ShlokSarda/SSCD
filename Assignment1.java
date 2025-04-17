@@ -130,10 +130,10 @@ public class Assignment1 {
         System.out.printf("%-10s %-15s %-10s%n", "Sym_Id", "Value", "Address");  // Header with formatting
         System.out.println("---------------------------------------"); // Separator
 
-for (int i = 0; i < symcounter; i++) {
-    sym_ans += String.format("%-10d %-15s %-10s\n", i + 1, sym[i][0], sym[i][1]);
-    System.out.printf("%-10d %-15s %-10s%n", i + 1, sym[i][0], sym[i][1]);  // Formatted output
-}
+		for (int i = 0; i < symcounter; i++) {
+			sym_ans += String.format("%-10d %-15s %-10s\n", i + 1, sym[i][0], sym[i][1]);
+			System.out.printf("%-10d %-15s %-10s%n", i + 1, sym[i][0], sym[i][1]);  // Formatted output
+		}
         writer1.write(sym_ans);
 		writer.write(buffer);
 		reader.close();

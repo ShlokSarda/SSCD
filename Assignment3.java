@@ -13,7 +13,7 @@ public class Assignment3 {
         BufferedReader br = new BufferedReader(new FileReader("macro_input.txt"));
         BufferedWriter mntWriter = new BufferedWriter(new FileWriter("mnt.txt"));
         BufferedWriter mdtWriter = new BufferedWriter(new FileWriter("mdt.txt"));
-        BufferedWriter interWriter = new BufferedWriter(new FileWriter("intermediate.txt"));
+        BufferedWriter interWriter = new BufferedWriter(new FileWriter("macro_intermediate.txt"));
         BufferedWriter alaWriter = new BufferedWriter(new FileWriter("ala.txt"));
 
         String line;

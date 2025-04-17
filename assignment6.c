@@ -53,7 +53,7 @@ void F() {
 }
 
 void TP() {
-    if (strcmp(tp, "+") == 0) {
+    if (strcmp(tp, "*") == 0) {
         advance();
         F();
         TP();
@@ -66,7 +66,7 @@ void T() {
 }
 
 void EP() {
-    if (strcmp(tp, "*") == 0) {
+    if (strcmp(tp, "+") == 0) {
         advance();
         T();
         EP();
